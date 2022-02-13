@@ -16,19 +16,44 @@
 
 body {
     padding: 10px;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
 }
+
+hr {
+    border: 1px solid var(--cor3);
+    width: 45%;
+}
+
 
 .container {
-    background-color: var(--cor4);
+    background-color: hsla(199, 64%, 91%, 0.753);
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
 }
 
-.dados img {
+.dados {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#perfil {
     max-width: 200px;
     border-radius: 50%;
     margin: auto;
+}
+
+.icone {
+    display: inline;
+    width: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .dados h1 {
@@ -48,6 +73,19 @@ body {
     font-family: var(--font2);
     font-weight: lighter;
     font-size: 0.8em;
+}
+
+.informacoes {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+.projetos {
+    padding-top: 5px;
 }
 
 
