@@ -45,10 +45,15 @@ h2 {
     margin-top: 10px;
 }
 
+h3 {
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 24px;
+}
+
 p {
     font-family: var(--font1);
     font-size: 14px;
-    text-align: justify;
 }
 
 .container {
@@ -114,7 +119,7 @@ p {
 
 .informacoes {
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
 }
 
 .informacoes h2 {
@@ -125,8 +130,86 @@ p {
     margin-bottom: 10px;
 }
 
-.projetos {
-    padding-top: 5px;
+#escolaridade, #cursos {
+    margin-bottom: 0;
+}
+
+.cursos-pq {
+    display: none;
+}
+
+.item-projeto {
+    margin: 10px auto;
+}
+
+.item-projeto a h3 {
+    color: black;
+}
+
+.item-projeto div p {
+    padding-left: 10px;
+    display: block;
+}
+
+.item-projeto div {
+    margin: 5px 0;
 }
 
 
+.item-projeto img{
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
+}
+
+.item-projeto button {
+    background-color: var(--cor2);
+    margin: 0 7px;
+    padding: 0 3px;
+}
+
+.item-projeto  a {
+    text-decoration: none;
+    font-family: var(--font2);
+    color: white;
+    font-weight: bold;
+}
+
+.traco2 {
+    display: none;
+}
+
+@media (max-width: 740px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dados, .informacoes, .projetos {
+        margin: 10px;
+    }
+
+    #escolaridade div {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #cursos {
+        margin: 0;
+    }
+
+    .cursos-gr {
+        display: none;
+    }
+
+    .cursos-pq {
+        display: block;
+    }
+
+    .traco2 {
+        display: block;
+        border: 1px solid var(--cor1);
+        width: 100%;
+        margin: 5px auto;
+    }
+}

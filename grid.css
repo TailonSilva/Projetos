@@ -103,21 +103,22 @@ img {
         }
     
     .container-total {
-        max-height: 100%;
+        max-width: 100%;
     }
     
     .grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7,.grid-8,.grid-9,.grid-10,.grid-11,.grid-12 {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
     float: none;
-    width: 100%
+    width: 95%
     }
     
     .gridt-1,.gridt-2,.gridt-3,.gridt-4,.gridt-5,.gridt-6,.gridt-7,.gridt-8,.gridt-9,.gridt-10,.gridt-11,.gridt-12 {
     margin-left: 0px;
     margin-right: 0px;
     float: none;
-    width: 100%
+    max-width: 100%
     }
     
     .none {display: none;}
