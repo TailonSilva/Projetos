@@ -19,10 +19,6 @@ body {
     background-color: var(--cor1);
 }
 
-.block {
-    display: block;
-}
-
 .container {
     background-color: var(--cor4);
     border-radius: 10px;
