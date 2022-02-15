@@ -17,7 +17,7 @@
 body {
     padding: 10px;
     background-color: var(--cor3);
-    background-image: url(fundo.jpg);
+    background-image: url(imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
