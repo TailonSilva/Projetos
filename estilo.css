@@ -29,6 +29,7 @@ hr {
     border: 1px solid var(--cor3);
     width: 45%;
     margin-bottom: 5px;
+    
 }
 
 h1 {
@@ -51,165 +52,133 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 14px;
+}
+
 p {
     font-family: var(--font1);
     font-size: 14px;
 }
 
+a {
+    font-family: var(--font1);
+    font-size: 14px;
+}
+
 .container {
-    background-color: hsla(199, 64%, 91%, 0.753);
+    background-color: rgba(217, 237, 247, 0.753);
     border-radius: 10px;
-    padding: 10px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
 }
 
-.dados {
-    padding-top: 10px;
-    padding-bottom: 5px;
+.dados {}
+
+.perfil {
+    padding: 3px 10px;
 }
 
-#img-perfil {
-    max-width: 200px;
+.perfil img {
     border-radius: 50%;
+    max-width: 200px;
     margin: auto;
 }
 
-#perfil {
-    padding-left: 10px;
-}
-
-.icone {
-    display: inline;
-    width: 15px;
-    margin: 0;
-    padding: 0;
-    padding: 0 10px;
-}
-
-.dados h1 {
+.perfil h1 {
     text-align: center;
 }
 
-#conhecimentos {
-    text-align: center;
+.perfil h2 {}
+
+.perfil p {}
+
+.contatos {
+    padding: 3px 10px;
 }
 
-.dados h2 {
-    display: inline-block;
-}
-
-.dados p {
-    font-family: var(--font2);
-    font-size: 0.8em;
-}
+.contatos p {}
 
 .contatos a {
-    font-size: 18px;
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 24px;
 }
 
-.dados div {
-    margin-bottom: 10px;
+.contatos img {
+    margin-right: 5px;
+    display: inline;
+    width: 20px;
 }
 
-.linguagem p {
-    display: inline-block;
+.linguagem {
+    padding: 3px 10px;
 }
 
-.informacoes {
-    padding-top: 10px;
-    padding-bottom: 0;
+.linguagem h2 {}
+
+.linguagem div {}
+
+.linguagem div p {
+    display: inline;
 }
 
-.informacoes h2 {
-    display: inline-block;
+.linguagem div progress {
+    float: right;
+    width: 75%;
 }
 
-.informacoes div {
-    margin-bottom: 10px;
+.escolaridade {
+    padding: 3px 10px;
 }
 
-#escolaridade, #cursos {
-    margin-bottom: 0;
+.escolaridade h2 {}
+
+.escolas {
+    padding: 5px 0;
 }
 
-.cursos-pq {
-    display: none;
+.escolas div {}
+
+.escolas div p {}
+
+.cursos {
+    padding: 3px 10px;
+}
+
+.cursos h2 {}
+
+.curso {
+    padding: 5px 0;
+}
+
+.curso div {}
+
+.curso div p {}
+
+.projetos {
+    background-color: rgba(1, 35, 64, 0.377);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
 }
 
 .item-projeto {
-    margin: 10px auto;
+    padding: 3px 10px;
 }
 
-.item-projeto a h3 {
-    color: black;
+.item-projeto h2 {}
+
+.projeto {
+    
+    padding: 5px 0;
 }
 
-.item-projeto div p {
-    padding-left: 10px;
-    display: block;
-}
+.projeto div button {}
 
-.item-projeto div {
-    margin: 5px 0;
-}
-
-
-.item-projeto img{
+.projeto img {
     border-radius: 10px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
 }
 
-.item-projeto button {
-    background-color: var(--cor2);
-    margin: 0 7px;
-    padding: 0 3px;
-}
-
-.item-projeto  a {
-    text-decoration: none;
-    font-family: var(--font2);
-    color: white;
-    font-weight: bold;
-}
-
-.traco2 {
-    display: none;
-}
-
-@media (max-width: 740px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    .dados, .informacoes, .projetos {
-        margin: 10px;
-    }
-
-    #escolaridade div {
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-
-    #cursos {
-        margin: 0;
-    }
-
-    .cursos-gr {
-        display: none;
-    }
-
-    .cursos-pq {
-        display: block;
-    }
-
-    .traco2 {
-        display: block;
-        border: 1px solid var(--cor1);
-        width: 100%;
-        margin: 5px auto;
-    }
-}
