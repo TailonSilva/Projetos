@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Cor1: #00b83b; /*Verde Bandeira*/
+    --Cor2: #f8f8f8; /*Cinza Claro*/
+    --Cor3: #000000; /*Preto*/
+    --Cor4: #363636; /*Grafite*/
+    --Cor5: #ffffff; /*Branco*/
+    --Cor6: #008c2c; /*Verde Escuro*/
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Open Sans Condensed', sans-serif;
+    --font3: 'Oswald', sans-serif;
+  }

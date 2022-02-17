@@ -1,0 +1,54 @@
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+*/
+
+.corpo-linha-de-produtos {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .corpo-linha-de-produtos {
+        max-width: 300px;
+
+    }
+}
+
+.linhas {
+    width: 190px;
+    height: auto;
+    margin: 5px;
+}
+
+.linhas img {
+    width: 150px;
+    margin: 0 20px;
+}
+
+.linhas img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.linhas h3 {
+    font-family: var(--font3);
+    text-align: center;
+}
+
+.linhas p {
+    font-family: var(--font2);
+    text-align: center;
+}
