@@ -74,7 +74,9 @@ a {
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
 }
 
-.dados {}
+.dados {
+    padding: 0px 5px;
+}
 
 .perfil {
     padding: 3px 10px;
@@ -129,28 +131,28 @@ a {
     width: 75%;
 }
 
-.escolaridade {
-    padding: 3px 10px;
+.informacoes {
+    padding: 0px 5px;
 }
+
+.escolaridade {}
 
 .escolaridade h2 {}
 
 .escolas {
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 
 .escolas div {}
 
 .escolas div p {}
 
-.cursos {
-    padding: 3px 10px;
-}
+.cursos {}
 
 .cursos h2 {}
 
 .curso {
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 
 .curso div {}
@@ -165,7 +167,7 @@ a {
 }
 
 .item-projeto {
-    padding: 3px 10px;
+    padding: 3px 5px;
 }
 
 .item-projeto h2 {}
