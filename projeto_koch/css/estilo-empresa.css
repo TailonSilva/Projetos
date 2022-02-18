@@ -1,0 +1,168 @@
+:root{
+  --FundoPrincipal: #ffffff; /*Branco*/
+  --CorCilente1: #00b83b; /*Verde Bandeira*/
+  --CorCilente2: #f8f8f8; /*Cinza Claro*/
+  --CorTexto1: #000000; /*Preto*/
+  --CorTexto2: #363636; /*Grafite*/
+  --CorTexto3: #ffffff; /*Branco*/
+  --CorTexto4: #008c2c; /*Verde Escuro*/
+  --font1: 'Open Sans', sans-serif;
+  --font2: 'Oswald', sans-serif;
+}
+
+.empresa {}
+
+.empresa img {}
+
+.empresa p {
+    font-size: small;
+    text-align: justify;
+    font-family: var(--font2);
+    color: var(--CorTexto1);
+    line-height: 2em;
+}
+
+.empresa span {
+    font-size: 1.5em;
+    margin-left: 3%
+}
+
+
+.valores {
+    text-align: center;
+}
+
+.valores img {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.valores h1 {
+    font-family: var(--font2);
+    color: var(--CorTexto1);
+}
+
+.valores h3,li {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+    color: var(--CorTexto1);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.valores li {
+    list-style-type: none;
+}
+
+.fundo-verde {
+    background-color: var(--CorTexto4);
+    height: auto;
+    width: auto;
+    
+}
+
+.diferencial {}
+
+.diferencial h1 {
+    font-family: var(--font2);
+    color: var(--CorTexto3);
+    padding: 0 10%;
+}
+
+.diferencial hr {
+    margin:  0 10%;
+    color: var(--CorTexto3);
+    width: 20%;
+    border-width: 0; 
+	border-top-width: 1px;
+}
+
+.diferencial p {
+    font-family: var(--font1);
+    color: var(--CorTexto3);
+    padding: 0% 10%;
+    text-align: justify;
+}
+
+.diferencial img {
+    height: auto;
+    padding: 5% 0;
+}
+
+
+/*--------------- RESPONSABILIDADE SOCIAL ---------------*/
+.img-servicos {
+    background-color: var(--CorCilente2);
+    height: 500px;
+}
+
+.texto-servicos {
+    background-color: var(--CorCilente2);
+    height: 500px;
+}
+
+.texto-servicos h1 {
+    font-size: 2.5em;
+    padding: 3% 5% 1% 5%;
+    font-family: var(--font2);
+    color: var(--CorTexto1);
+}
+
+.texto-servicos hr {
+    background: var(--CorCilente1);
+    margin: 0% 80% 0% 5%;
+    height: 2px;
+}
+
+.texto-servicos h3 {
+    padding: 3% 5% 1% 5%;
+    font-family: var(--font1);
+    color: var(--CorTexto1);
+    font-size: medium;
+    font-weight: bold;
+}
+
+/*---------------GRID MOBILE---------------*/
+@media (max-width: 739px) {
+    
+    .diferencial p {font-size: 0.8em;}
+    
+    .diferencial img {
+    margin: auto;
+    width: 250px;
+}
+    
+    .img-servicos {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-servicos {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-servicos h1 {
+        margin: 0;
+        padding: 3% 5% 1% 5%;;
+        font-size: 1em;
+        
+    }
+
+    .texto-servicos hr {}
+
+    .texto-servicos h3 {
+        font-size: 1em;
+        font-size: small;
+        font-weight: lighter;
+    }
+    
+}

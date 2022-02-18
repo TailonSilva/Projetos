@@ -1,0 +1,74 @@
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.servicos {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.servicos.ativa {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.servicos img {
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .servicos img {
+        width: 100%;
+    }
+  }
+
+.servicos div {
+    background-color: var(--Cor2);
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .servicos div {
+        width: 100%;
+    }
+  }
+
+.servicos div h1 {
+    font-size: 2.5em;
+    padding: 3% 5% 1% 5%;
+    font-family: var(--font2);
+    color: var(--Cor4);
+}
+
+.servicos div hr {
+    background: var(--Cor1);
+    margin: 0% 80% 0% 5%;
+    height: 2px;
+}
+
+.servicos div h3 {
+    padding: 3% 5% 1% 5%;
+    font-family: var(--font1);
+    color: var(--Cor4);
+    font-size: medium;
+    font-weight: lighter;
+}

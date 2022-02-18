@@ -1,0 +1,114 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOCH - Proteção que Você Veste</title>
+  
+  <link rel="shortcut icon" type="image/png" href="_img/K.png" />
+
+    <link rel="stylesheet" type="text/css" href="css/estilo-servicos.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo-titulos.css" />
+    
+    
+    <!--IMPORTAÇÃO READER E FOOTER-->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+        });
+    </script>    
+</head>
+
+<body>
+
+<!---------------------- CABEÇALHO ---------------------->
+<div id="header"></div>
+    
+<!---------------------- TITULO ---------------------->
+    
+<div class="titulo">
+    <h1>SERVIÇOS</h1>
+</div>
+
+<!---------------------- SERVIÇOS ---------------------->
+    <!---------------------- CONSULTORIA ---------------------->
+    <div class="servicos">
+            <img src="img/servicos/consultoria.jpg">
+        <div>
+            <h1>CONSULTORIA TÉCNICA</h1>
+            <hr>
+            <h3>A KOCH EPIs disponibiliza para seus clientes equipe qualificada e consultor técnico, informado sobre leis do trabalho, para auxiliar na geração de soluções em proteção à vida, acerca das normas do MTE e aspectos do E-social.</h3>
+        </div>
+    </div>
+    
+    <!---------------------- PALESTRAS ---------------------->
+    <div class="servicos">
+            <img src="img/servicos/palestras.jpg">
+        <div>
+            <h1>PALESTRAS/SIPAT</h1>
+            <hr>
+            <h3>Com foco em proteção, conscientização, saúde e a qualidade de vida no trabalho. A KOCH EPIs visa atender as organizações com palestras dinâmicas e interativas nas SIPATs, de forma gratuita para seus clientes.</h3>
+        </div>
+    </div>    
+    
+    <!---------------------- ERGONOMIA ---------------------->
+    <div class="servicos">
+            <img src="img/servicos/ergonimia.jpg">
+        <div>
+            <h1>ESPECIALISTA EM ERGONOMIA</h1>
+            <hr>
+            <h3>Oferecemos para os clientes visita técnica com ergonomista e fisioterapeuta do trabalho, auxiliando nas soluções ergonômicas e em possíveis dúvidas da NR17.</h3>
+        </div>
+    </div>    
+    
+    <!---------------------- ITENS PERSONALIZADOS ---------------------->
+    <div class="servicos">
+            <img src="img/servicos/seguranca.jpg">
+        <div>
+            <h1>PERSONALIZAÇÃO DE SEGURANÇA DO TRABALHO (CONFORME CADA NECESSIDADE)</h1>
+            <hr>
+            <h3>A KOCH EPIs visando a melhor maneira de atender seus clientes oferece modelos de EPIs e acessórios personalizados, que se adequam a proteção necessária de cada função visando o melhor custo-benefício para o cliente.</h3>
+        </div>
+    </div>        
+    
+    <!---------------------- SEGURANÇA ---------------------->
+    <div class="servicos">
+            <img src="img/servicos/itens-personalizados.jpg">
+        <div>
+            <h1>ITENS PERSONALIZADOS PCD</h1>
+            <hr>
+            <h3>A KOCH EPIs desenvolve projetos personalizados de itens para atender usuários PCD sem cobrar o valor do equipamento projetado.</h3>
+        </div>
+    </div>       
+        
+<!----------------------RODAPE---------------------->
+<div id="footer"></div>
+    
+<!---------------------- BOTAO DO WHATS ---------------------->
+<div id="whats"></div>
+
+<script>
+    
+    const sections = document.querySelectorAll('.servicos');
+    const janelaMetade = window.innerHeight * 0.75
+    
+    function animaScroll() {
+        sections.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top - janelaMetade
+            if (sectionTop < 0) {
+            section.classList.add('ativa')   
+            }
+        })
+    }
+    animaScroll()
+    window.addEventListener('scroll', animaScroll)
+    
+</script>
+    
+</body>
+</html>

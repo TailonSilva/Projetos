@@ -44,7 +44,8 @@
 
 .linhas img {
     width: 150px;
-    margin: 0 20px;
+    display: block;
+    margin: auto;
 }
 
 .linhas img:hover {
@@ -65,11 +66,10 @@
 
 /*----------------------INSTAGRAM----------------------*/
 .feedInstagram {
-    padding: 50% auto;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    margin: 5% auto;
+    height: auto;
+    background-image: linear-gradient(to top, white, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%,white);
 }
-
-#insta {}
 
 .conteudo-insta {
     max-width: 1200px;
