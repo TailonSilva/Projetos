@@ -13,10 +13,14 @@
 */
 
 /*----------------------CAPA HOME----------------------*/
-.capa-home-gr {}
+#slide {}
 
-.capa-home-gr img {
-    width: 100%;
+#slide-mobile {display: none;}
+
+@media (max-width: 500px) {
+    #slide { display: none;}
+
+    #slide-mobile {display: block;}
 }
 
 /*----------------------LINHA DE PRODUTOS----------------------*/
@@ -32,7 +36,6 @@
 @media (max-width: 500px) {
     .corpo-linha-de-produtos {
         max-width: 300px;
-
     }
 }
 

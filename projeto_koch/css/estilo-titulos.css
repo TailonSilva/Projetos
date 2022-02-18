@@ -18,6 +18,13 @@
     margin: 3% auto;
 }
 
+@media (max-width: 500px) {
+    .titulo {
+        font-size: 0.8em;
+        margin: 5% 15%;
+    }
+}
+
 .t-insta {
     margin: 1% auto;
     padding-top: 20px;

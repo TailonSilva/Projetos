@@ -49,6 +49,12 @@ color: var(--Cor4);
 margin: 15px 5px;
 }
 
+@media (max-width: 500px) {
+  .rodape-1 h1 {
+    text-align: center;
+    }
+}
+
 .rodape-1 a {
   width: 120px;
   height: 30px;

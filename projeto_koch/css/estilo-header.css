@@ -45,7 +45,7 @@ nav a {
     font-family: var(--font1);
 	margin: 16px 10px;
 	outline: none;
-	color: var(--CorTexto2);
+	color: var(--Cor3);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1em;
@@ -110,7 +110,7 @@ nav a:focus {
 }
 
 /*---------------GRID MOBILE---------------*/
-@media (max-width: 739px) {  
+@media (max-width: 500px) {  
     .topo-2 {display: none;}
     
     .topo-1 img {
@@ -123,7 +123,7 @@ nav a:focus {
     .topo-1 button {
         float: right;
         display: flex;
-        background: var(--CorCilente1);
+        background: var(--Cor1);
         border: none;
         padding: 4% 5%;
         border-radius: 5px;
@@ -140,7 +140,7 @@ nav a:focus {
         content: '';
         height: 2px;
         width: 15px;
-        background: var(--CorTexto3);
+        background: var(--Cor3);
         box-shadow: 0 4px, 0 -4px;
     }
     
@@ -165,9 +165,9 @@ nav a:focus {
     margin: 0;
     padding: 2%;
     list-style: none;
-    background: var(--CorCilente1);
-    font-family: var(--font1);
-    color: var(--CorTexto3);
+    background: var(--Cor1);
+    font-family: var(--font2);
+    color: var(--Cor3);
     
     }
     

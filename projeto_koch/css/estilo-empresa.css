@@ -1,14 +1,16 @@
-:root{
-  --FundoPrincipal: #ffffff; /*Branco*/
-  --CorCilente1: #00b83b; /*Verde Bandeira*/
-  --CorCilente2: #f8f8f8; /*Cinza Claro*/
-  --CorTexto1: #000000; /*Preto*/
-  --CorTexto2: #363636; /*Grafite*/
-  --CorTexto3: #ffffff; /*Branco*/
-  --CorTexto4: #008c2c; /*Verde Escuro*/
-  --font1: 'Open Sans', sans-serif;
-  --font2: 'Oswald', sans-serif;
-}
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+*/
 
 .empresa {}
 
