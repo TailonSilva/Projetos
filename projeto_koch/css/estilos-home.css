@@ -12,12 +12,21 @@
 --font3: Oswald
 */
 
+/*----------------------CAPA HOME----------------------*/
+.capa-home-gr {}
+
+.capa-home-gr img {
+    width: 100%;
+}
+
+/*----------------------LINHA DE PRODUTOS----------------------*/
 .corpo-linha-de-produtos {
     max-width: 1200px;
     height: auto;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (max-width: 500px) {
@@ -51,4 +60,38 @@
 .linhas p {
     font-family: var(--font2);
     text-align: center;
+}
+
+
+/*----------------------INSTAGRAM----------------------*/
+.feedInstagram {
+    padding: 50% auto;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+#insta {}
+
+.conteudo-insta {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .conteudo-insta {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+.video-insta {}
+
+.img-insta {}
+
+.img-insta img {
+    max-height: 250px;
+    margin: 10px;
+    border-radius: 5%;
 }

@@ -1,0 +1,55 @@
+<html lang="pt-br">
+    
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="css/estilo-header.css" />
+
+</head>
+    
+<header>    
+    <div class="topo-1">
+        <img src="img/logo/logo-koch-500px.png">
+        <button id="menu-mobile-button" data-menu="button" aria-expanded="false" aria-controls="menu" onclick='abrirMenu()'>Menu</button>
+    </div>
+    
+    <nav class="menu-mobile">
+        <ul class="menu-mobile-list menu-invisivel" id="menu-mobile-list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="empresa.html">EMPRESA</a></li>
+            <li><a href="produtos.html">PRODUTOS</a></li>
+            <li><a href="servicos.html">SERVIÇOS</a></li>
+            <li><a href="catalogo.html">CATÁLOGO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+        
+    
+    
+    <div class="topo-2">
+        <nav class="menu-desktop grid-12 nav-menu nav-fundo nav-linha"> 
+        <ul>
+            <a href="index.html">HOME</a>
+            <a href="empresa.html">EMPRESA</a>
+            <a href="produtos.html">PRODUTOS</a>
+            <a href="servicos.html">SERVIÇOS</a>
+            <a href="catalogo.html">CATÁLOGO</a>
+            <a href="contato.html">CONTATO</a>
+        </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    
+    <script>
+    
+    const menuList = document.querySelector('.menu-mobile-list')
+
+    function abrirMenu() {
+    menuList.classList.toggle('menu-invisivel')
+    }
+    </script>
+    
+</body>
+    
+</html>

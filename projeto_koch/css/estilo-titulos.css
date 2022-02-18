@@ -1,0 +1,19 @@
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+*/
+
+.titulo {
+    font-family: var(--font3);
+    text-align: center;
+    margin: 3% auto;
+}
