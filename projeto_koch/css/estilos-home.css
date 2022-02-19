@@ -64,6 +64,12 @@
     background-image: linear-gradient(to top, white, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%,white);
 }
 
+@media (max-width: 500px) {
+    .feedInstagram {
+        display: none;
+    }
+}
+
 .conteudo-insta {
     max-width: 1200px;
     margin: auto;

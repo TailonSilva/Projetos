@@ -72,8 +72,6 @@
     display: none;
 }
 
-.menu-invisivel {display: none}
-
 @media (max-width: 500px) {
     .menu-mobile {
         display: block;
@@ -127,4 +125,11 @@
     margin: 5px 5px;
     display: inline-block;
     font-family: var(--font3);
+    transition: all .3s ;
+}
+
+.menu-desktop a:hover {
+    transform: scale(1.1);
+    background-color: var(--Cor6);
+    border-radius: 5px;
 }
