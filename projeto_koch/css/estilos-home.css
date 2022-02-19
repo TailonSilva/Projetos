@@ -12,16 +12,6 @@
 --font3: Oswald
 */
 
-/*----------------------CAPA HOME----------------------*/
-#slide {}
-
-#slide-mobile {display: none;}
-
-@media (max-width: 500px) {
-    #slide { display: none;}
-
-    #slide-mobile {display: block;}
-}
 
 /*----------------------LINHA DE PRODUTOS----------------------*/
 .corpo-linha-de-produtos {
@@ -94,7 +84,7 @@
 .img-insta {}
 
 .img-insta img {
-    max-height: 250px;
+    max-height: 220px;
     margin: 10px;
     border-radius: 5%;
 }
