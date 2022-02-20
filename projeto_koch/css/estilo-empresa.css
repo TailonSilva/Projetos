@@ -12,159 +12,151 @@
 --font3: Oswald
 */
 
-.empresa {}
 
-.empresa img {}
+/*------------HISTORIA DA EMRPESA------------*/
+.empresa {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.empresa img {
+    max-width: 580px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+}
 
 .empresa p {
-    font-size: small;
+    max-width: 580px;
+    margin: 10px;
+    font-size: 0.9em;
     text-align: justify;
-    font-family: var(--font2);
-    color: var(--CorTexto1);
-    line-height: 2em;
-}
-
-.empresa span {
-    font-size: 1.5em;
-    margin-left: 3%
-}
-
-
-.valores {
-    text-align: center;
-}
-
-.valores img {
-    height: 50px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.valores h1 {
-    font-family: var(--font2);
-    color: var(--CorTexto1);
-}
-
-.valores h3,li {
-    margin: 0;
-    padding: 0;
     font-family: var(--font1);
-    color: var(--CorTexto1);
-    font-size: medium;
-    font-weight: bold;
+    color: var(--Cor4);
 }
 
-.valores li {
-    list-style-type: none;
-}
-
-.fundo-verde {
-    background-color: var(--CorTexto4);
-    height: auto;
-    width: auto;
+/*------------VALORES------------*/
+.valores {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
     
 }
 
-.diferencial {}
+.valores div {
+    width: 280px;
+    margin: 10px;
+}
 
-.diferencial h1 {
+.valores div img {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.valores div h1 {
     font-family: var(--font2);
-    color: var(--CorTexto3);
-    padding: 0 10%;
+    color: var(--Cor4);
+    text-align: center;
+    margin: 10px auto;
 }
 
-.diferencial hr {
-    margin:  0 10%;
-    color: var(--CorTexto3);
-    width: 20%;
-    border-width: 0; 
-	border-top-width: 1px;
-}
-
-.diferencial p {
+.valores div p {
     font-family: var(--font1);
-    color: var(--CorTexto3);
-    padding: 0% 10%;
+    color: var(--Cor4);
+    text-align: center;
+}
+
+.valores div li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+    color: var(--Cor4);
+
+    text-align: center;
+}
+
+
+/*------------DIFERENCIAL------------*/
+.diferencial {
+    background-color: var(--Cor1);
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.diferencial div {
+    max-width: 600px;
+    padding: 40px 20px;
+}
+
+.diferencial div h1 {
+    font-family: var(--font1);
+    color: var(--Cor5);
+}
+
+.diferencial div hr {
+    background: var(--Cor5);
+    width: 20%;
+    height: 2px;
+    margin: 10px;
+}
+
+.diferencial div p {
+    font-family: var(--font1);
+    color: var(--Cor5);
     text-align: justify;
 }
 
 .diferencial img {
-    height: auto;
-    padding: 5% 0;
-}
-
-
-/*--------------- RESPONSABILIDADE SOCIAL ---------------*/
-.img-servicos {
-    background-color: var(--CorCilente2);
-    height: 500px;
-}
-
-.texto-servicos {
-    background-color: var(--CorCilente2);
-    height: 500px;
-}
-
-.texto-servicos h1 {
-    font-size: 2.5em;
-    padding: 3% 5% 1% 5%;
-    font-family: var(--font2);
-    color: var(--CorTexto1);
-}
-
-.texto-servicos hr {
-    background: var(--CorCilente1);
-    margin: 0% 80% 0% 5%;
-    height: 2px;
-}
-
-.texto-servicos h3 {
-    padding: 3% 5% 1% 5%;
-    font-family: var(--font1);
-    color: var(--CorTexto1);
-    font-size: medium;
-    font-weight: bold;
-}
-
-/*---------------GRID MOBILE---------------*/
-@media (max-width: 739px) {
-    
-    .diferencial p {font-size: 0.8em;}
-    
-    .diferencial img {
+    max-width: 600px;
+    display: block;
     margin: auto;
-    width: 250px;
+    padding: 40px 20px;
 }
-    
-    .img-servicos {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: auto;
-    }
 
-    .texto-servicos {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: auto;
-    }
 
-    .texto-servicos h1 {
-        margin: 0;
-        padding: 3% 5% 1% 5%;;
-        font-size: 1em;
-        
-    }
+/*------------RESPONSABILIDADE SOCIAL------------*/
+.responsabilidade {
+    background-color: var(--Cor2);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 100%;
+}
 
-    .texto-servicos hr {}
+.responsabilidade img {
+    max-width: 48%;
+}
 
-    .texto-servicos h3 {
-        font-size: 1em;
-        font-size: small;
-        font-weight: lighter;
-    }
-    
+.responsabilidade div {
+    max-width: 48%;
+    padding: 20px;
+}
+
+.responsabilidade div h1 {
+    font-size: 2.5em;
+    font-family: var(--font1);
+    color: var(--Cor4);
+}
+
+.responsabilidade div hr {
+    background: var(--Cor1);
+    width: 20%;
+    height: 2px;
+    margin: 10px;
+}
+
+.responsabilidade div p {
+    font-family: var(--font1);
+    color: var(--Cor4);
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: justify;
 }
