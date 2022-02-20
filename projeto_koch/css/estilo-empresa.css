@@ -10,8 +10,9 @@
 --font1: Open Sans
 --font2: Open Sans Condensed
 --font3: Oswald
-*/
 
+@media (max-width: 500px) {}
+*/
 
 /*------------HISTORIA DA EMRPESA------------*/
 .empresa {
@@ -21,6 +22,13 @@
     margin: 20px auto;
 }
 
+@media (max-width: 500px) {
+    .empresa {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
 .empresa img {
     max-width: 580px;
     margin: 10px;
@@ -28,13 +36,32 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
 }
 
+@media (max-width: 500px) {
+    .empresa img {
+        max-width: 300px;
+        margin: 10px auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    }
+}
+
 .empresa p {
     max-width: 580px;
-    margin: 10px;
+    margin: 20px 10px;
     font-size: 0.9em;
     text-align: justify;
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--Cor4);
+    display: block;
+    text-indent: 3em;
+}
+
+@media (max-width: 500px) {
+    .empresa p {
+        max-width: 300px;
+        font-size: 0.9em;
+        margin: 5px auto;
+    }
 }
 
 /*------------VALORES------------*/
@@ -43,7 +70,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
-    
+}
+
+@media (max-width: 500px) {
+    .valores {
+        max-width: 300px;
+    }
 }
 
 .valores div {
@@ -91,14 +123,35 @@
     margin: 20px auto;
 }
 
+@media (max-width: 500px) {
+    .diferencial {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+}
+
 .diferencial div {
-    max-width: 600px;
-    padding: 40px 20px;
+    max-width: 520px;
+    padding: 40px 40px;
+}
+
+@media (max-width: 500px) {
+    .diferencial div {
+        max-width: 300px;
+        padding: 0;
+        margin: 15px auto;
+    }
 }
 
 .diferencial div h1 {
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--Cor5);
+}
+
+@media (max-width: 500px) {
+    .diferencial div h1 {
+        font-size: 1.5em;
+    }
 }
 
 .diferencial div hr {
@@ -108,10 +161,28 @@
     margin: 10px;
 }
 
+@media (max-width: 500px) {
+    .diferencial div hr {
+        margin: 10px 0;
+    }
+}
+
 .diferencial div p {
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--Cor5);
     text-align: justify;
+    font-size: 1.1em;
+    text-indent: 3em;
+}
+
+@media (max-width: 500px) {
+    .diferencial div p {
+        font-family: var(--font2);
+        color: var(--Cor5);
+        text-align: justify;
+        font-size: 0.9em;
+        margin: 5px auto;
+    }
 }
 
 .diferencial img {
@@ -119,6 +190,14 @@
     display: block;
     margin: auto;
     padding: 40px 20px;
+}
+
+@media (max-width: 500px) {
+    .diferencial img {
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 0;
+    }
 }
 
 
@@ -131,8 +210,17 @@
     max-width: 100%;
 }
 
+@media (max-width: 500px) {}
+
 .responsabilidade img {
     max-width: 48%;
+}
+
+@media (max-width: 500px) {
+    .responsabilidade img {
+        max-width: 100%;
+        margin: auto;
+    }
 }
 
 .responsabilidade div {
@@ -140,10 +228,26 @@
     padding: 20px;
 }
 
+@media (max-width: 500px) {
+    .responsabilidade div {
+        max-width: 300px;
+        padding: 0;
+        margin: 15px auto;
+    }
+}
+
 .responsabilidade div h1 {
     font-size: 2.5em;
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--Cor4);
+}
+
+@media (max-width: 500px) {
+    .responsabilidade div h1 {
+        font-size: 1.5em;
+        font-family: var(--font2);
+        color: var(--Cor4);
+    }
 }
 
 .responsabilidade div hr {
@@ -153,10 +257,27 @@
     margin: 10px;
 }
 
+@media (max-width: 500px) {
+    .responsabilidade div hr {
+        background: var(--Cor1);
+        width: 20%;
+        height: 2px;
+        margin: 10px 0;
+    }
+}
+
 .responsabilidade div p {
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--Cor4);
-    font-size: 0.8em;
-    font-weight: lighter;
+    font-size: 1.2em;
     text-align: justify;
+    text-indent: 3em;
+}
+
+@media (max-width: 500px) {
+    .responsabilidade div p {
+        font-family: var(--font2);
+        color: var(--Cor4);
+        font-size: 0.9em;
+    }
 }
