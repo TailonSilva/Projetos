@@ -22,7 +22,7 @@
     margin: 20px auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     .empresa {
         max-width: 300px;
         margin: auto;
@@ -38,7 +38,7 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     .empresa img {
         width: 300px;
         margin: 10px auto;
@@ -58,7 +58,7 @@
     text-indent: 3em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .empresa p {
         max-width: 300px;
         font-size: 0.9em;
@@ -74,7 +74,7 @@
     margin: 20px auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .valores {
         max-width: 300px;
         flex-direction: column;
@@ -126,9 +126,9 @@
     margin: 20px auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial {
-        max-width: 100%;
+        max-width: 300px;
         margin: 20px auto;
     }
 }
@@ -138,9 +138,9 @@
     padding: 40px 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial div {
-        max-width: 300px;
+        max-width: 280px;
         padding: 0;
         margin: 15px auto;
     }
@@ -151,7 +151,7 @@
     color: var(--Cor5);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial div h1 {
         font-size: 1.5em;
     }
@@ -164,7 +164,7 @@
     margin: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial div hr {
         margin: 10px 0;
     }
@@ -178,7 +178,7 @@
     text-indent: 3em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial div p {
         font-family: var(--font2);
         color: var(--Cor5);
@@ -195,9 +195,9 @@
     padding: 40px 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .diferencial img {
-        max-width: 300px;
+        max-width: 280px;
         margin: 10px auto;
         padding: 0;
     }
@@ -219,7 +219,7 @@
     width: 48%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .responsabilidade img {
         width: 100%;
         margin: auto;
@@ -232,7 +232,7 @@
     margin: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .responsabilidade div {
         max-width: 300px;
         padding: 0;
@@ -246,7 +246,7 @@
     color: var(--Cor4);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .responsabilidade div h1 {
         font-size: 1.5em;
         font-family: var(--font2);
@@ -261,7 +261,7 @@
     margin: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .responsabilidade div hr {
         background: var(--Cor1);
         width: 20%;
@@ -278,7 +278,7 @@
     text-indent: 3em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .responsabilidade div p {
         font-family: var(--font2);
         color: var(--Cor4);
