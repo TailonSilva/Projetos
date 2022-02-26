@@ -26,13 +26,11 @@
     .empresa {
         max-width: 300px;
         margin: auto;
-        flex-wrap: nowrap;
-        flex-direction: column;
     }
 }
 
 .empresa img {
-    width: 580px;
+    max-width: 580px;
     margin: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
@@ -40,7 +38,7 @@
 
 @media (max-width: 500px) {
     .empresa img {
-        width: 300px;
+        max-width: 280px;
         margin: 10px auto;
         border-radius: 15px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
@@ -82,13 +80,13 @@
 }
 
 .valores div {
-    width: 280px;
+    max-width: 280px;
     margin: 10px;
 }
 
 .valores div img {
     height: 50px;
-    width: auto;
+    max-width: 200px;
     display: block;
     margin: 10px auto;
 }
@@ -120,7 +118,7 @@
 /*------------DIFERENCIAL------------*/
 .diferencial {
     background-color: var(--Cor1);
-    max-width: 1200px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
@@ -128,19 +126,18 @@
 
 @media (max-width: 500px) {
     .diferencial {
-        max-width: 300px;
-        margin: 20px auto;
+        width: 100%;
     }
 }
 
 .diferencial div {
-    max-width: 520px;
+    width: 520px;
     padding: 40px 40px;
 }
 
 @media (max-width: 500px) {
     .diferencial div {
-        max-width: 280px;
+        width: 280px;
         padding: 0;
         margin: 15px auto;
     }
@@ -189,7 +186,7 @@
 }
 
 .diferencial img {
-    max-width: 600px;
+    width: 600px;
     display: block;
     margin: auto;
     padding: 40px 20px;
@@ -197,7 +194,8 @@
 
 @media (max-width: 500px) {
     .diferencial img {
-        max-width: 280px;
+        display: block;
+        width: 280px;
         margin: 10px auto;
         padding: 0;
     }
@@ -210,31 +208,36 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
-    max-width: 100%;
+    width: 100%;
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+    .responsabilidade {
+        flex-direction: column;
+        width: 100%;
+    }
+}
 
 .responsabilidade img {
-    width: 48%;
+    width: 45%;
 }
 
 @media (max-width: 500px) {
     .responsabilidade img {
-        width: 100%;
+        width: 300px;
         margin: auto;
     }
 }
 
 .responsabilidade div {
-    max-width: 48%;
+    width: 45%;
     padding: 20px;
     margin: auto;
 }
 
 @media (max-width: 500px) {
     .responsabilidade div {
-        max-width: 300px;
+        width: 300px;
         padding: 0;
         margin: 15px auto;
     }
