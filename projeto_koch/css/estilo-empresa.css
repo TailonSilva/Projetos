@@ -75,6 +75,7 @@
 @media (max-width: 500px) {
     .valores {
         max-width: 300px;
+        flex-direction: column;
     }
 }
 
