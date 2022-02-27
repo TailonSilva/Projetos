@@ -135,7 +135,7 @@
         float: right;
         padding: 2px 0;
         border-bottom-left-radius: 0;
-        background-image: linear-gradient(to right, var(--Cor5), var(--Cor1) );
+        background-image: linear-gradient(to right, var(--Cor5), var(--Cor1));
         color: var(--Cor6);
     }
 }

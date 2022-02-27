@@ -1,0 +1,117 @@
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+
+@media (max-width: 500px) {}
+*/
+
+.catalogo {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+}
+
+@media (max-width: 500px) {
+  .catalogo {
+    width: 300px;
+    box-shadow: 0 0 0;
+    border-radius: 0px;
+  }
+}
+
+.catalogo img {
+  width: 400px;
+}
+
+@media (max-width: 500px) {
+  .catalogo img {
+    width: 280px;
+    margin: auto 10px;
+  }
+}
+
+.catalogo div {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .catalogo div {
+    width: 300px;
+    align-content: center;
+  }
+}
+
+.catalogo div h2 {
+  font-family: var(--font2);
+  color: var(--Cor4);
+  margin: 10px auto;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .catalogo div h2 {
+    text-align: center;
+  }
+}
+
+.catalogo div p {
+  font-family: var(--font1);
+  color: var(--Cor4);
+  width: 380px;
+  margin: auto 10px;
+  text-align: justify;
+  font-size: small;
+  text-indent: 2em;
+}
+
+@media (max-width: 500px) {
+  .catalogo div p {
+    font-size: medium;
+  }
+}
+
+.catalogo div a {
+  font-family: var(--font3);
+  background-image: linear-gradient(to right, var(--Cor5), var(--Cor1));
+  width: 380px;
+  padding: 25px 10px;
+  text-align: right;
+  border-bottom-right-radius: 10px;
+  text-decoration: none;
+  color: var(--Cor5);
+  font-size: x-large;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479);
+}
+
+@media (max-width: 500px) {
+  .catalogo div a {
+    background-image: linear-gradient(to right, var(--Cor1), var(--Cor1));
+    width: 280px;
+    text-align: center;
+    border-bottom-right-radius: 0;
+    margin-top: 20px;
+    padding: 15px 10px;
+}
+
+.catalogo div a:hover {
+  color: var(--Cor3);
+}
+
+@media (max-width: 500px) {}
