@@ -16,7 +16,6 @@
     font-family: var(--font3);
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 20px;
     color: var(--Cor4);
 }
 
@@ -40,4 +39,18 @@
 .titulo-inta {
     color: var(--Cor5);
     margin-top: 30px;
+}
+
+.titulo-produtos {
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
+
+@media (max-width: 500px) {
+    .titulo-produtos {
+        padding: 20px 0;
+        font-size: x-small;
+        color: var(--Cor4);
+        background-color: var(--Cor5);
+    }
 }

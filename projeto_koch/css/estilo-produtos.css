@@ -1,0 +1,149 @@
+@import url(geral.css);
+
+/*
+--Cor1: Verde Bandeira
+--Cor2: Cinza Claro
+--Cor3: Preto
+--Cor4: Grafite
+--Cor5: Branco
+--Cor6: Verde Escuro
+--font1: Open Sans
+--font2: Open Sans Condensed
+--font3: Oswald
+
+@media (max-width: 500px) {}
+*/
+
+.produtos {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+@media (max-width: 500px) {
+    .produtos {
+        width: 300px;
+    }
+}
+
+.boxprodutos {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+@media (max-width: 500px) {
+    .boxprodutos {
+        width: 280px;
+    }
+}
+
+.boxprodutos div {}
+
+@media (max-width: 500px) {
+    .boxprodutos div {
+        display: inline;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        float: left;
+        
+    }
+
+    .boxprodutos div div {
+        display: inline;
+        width: 180px;
+        float: right;
+    }
+}
+
+.boxprodutos div img {
+    object-position: top center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 180px;
+}
+
+@media (max-width: 500px) {
+    .boxprodutos div img {
+        object-position: top center;
+        border-top-left-radius: 5px;
+        width: 100px;
+        display: inline;
+    }
+}
+
+.boxprodutos div h1 {
+    padding: 5px 0;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 1.2em;
+    color: var(--Cor4);
+    width: 180px;
+}
+
+@media (max-width: 500px) {
+    .boxprodutos div h1 {
+        width: 170px;
+        display: inline;
+        float: right;
+        padding: 2px 0;
+        font-size: 1em;
+    }
+}
+
+.boxprodutos div p {
+    padding: 5px 0;
+    text-align: center;
+    font-family:  var(--font1);
+    color: var(--Cor4);
+    font-size: 0.9em;
+    font-weight: 600;
+    width: 180px;
+}
+
+@media (max-width: 500px) {
+    .boxprodutos div p {
+        padding: 2px 0;
+        width: 170px;
+        display: inline-block;
+        float: right;
+        font-size: 0.7em;
+        margin: 7px 0;
+    }
+}
+
+.boxprodutos div a {
+    display: block;
+    text-align: center; 
+    background-color: var(--Cor1);
+    color: var(--Cor5);
+    padding: 5px 0;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: var(--font2);
+    width: 180px;
+}
+
+@media (max-width: 500px) {
+    .boxprodutos div a {
+        width: 180px;
+        display: inline-block;
+        float: right;
+        padding: 2px 0;
+        border-bottom-left-radius: 0;
+        background-image: linear-gradient(to right, var(--Cor5), var(--Cor1) );
+        color: var(--Cor6);
+    }
+}
+
+.boxprodutos div a:hover {
+    text-decoration: none;
+    background-color: var(--Cor6);
+    color: var(--Cor5);
+}
+
+@media (max-width: 500px) {}
