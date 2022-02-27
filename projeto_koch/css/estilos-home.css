@@ -49,11 +49,13 @@
 .linhas h3 {
     font-family: var(--font3);
     text-align: center;
+    color: var(--Cor4);
 }
 
 .linhas p {
     font-family: var(--font2);
     text-align: center;
+    color: var(--Cor4);
 }
 
 

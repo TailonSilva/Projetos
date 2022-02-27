@@ -15,18 +15,29 @@
 .titulo {
     font-family: var(--font3);
     text-align: center;
-    margin: 3% auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    color: var(--Cor4);
 }
 
 @media (max-width: 500px) {
     .titulo {
+        width: 100%;
         font-size: 0.8em;
-        margin: 5% 15%;
+        margin: 0;
+        background-color: var(--Cor1);
+        font-family: var(--font3);
+        text-align: center;
+        margin-bottom: 20px;
+        color: var(--Cor5);
     }
 }
 
-.t-insta {
-    color: var(--cor3);
-    margin: 1% auto;
-    padding-top: 20px;
+.titulo h1{
+    padding: 20px auto;
+}
+
+.titulo-inta {
+    color: var(--Cor5);
+    margin-top: 30px;
 }
