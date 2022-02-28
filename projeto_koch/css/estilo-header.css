@@ -49,7 +49,7 @@
         text-transform: uppercase;
         font-family: var(--font2);
         font-size: bold;
-        color: var(--CorTexto3);
+        color: var(--Cor5);
         margin: 7% 2%;
         align-items: center;
     }
@@ -59,7 +59,7 @@
         content: '';
         height: 2px;
         width: 15px;
-        background: var(--Cor3);
+        background: var(--Cor5);
         box-shadow: 0 4px, 0 -4px;
     }
 }
@@ -72,27 +72,45 @@
     .menu-mobile {display: block;}
 
     .menu-mobile ul {
+        height: 740px;
+        display: flex;
+        flex-wrap: wrap;
         position: absolute;
         top: 0;
         margin: 0;
         padding: 0;
         background-color: var(--Cor1);
-        display: block;
-        height: 100vh;
         z-index: 900;
-        width: 45%;
+        width: 150px;
     }
 
-    .menu-mobile ul a {
+    .menu-mobile ul div {}
+
+    .menu a {
+        width: 150px;
+        padding: 10px 0;
         display: block;
         margin: 0;
         text-align: center;
     }
 
-    .menu-mobile ul a img {
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .redes a {
+        margin: 0;
+        padding: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .redes a img {
         width: 30px;
         margin: 0;
-        }
+    }
 }
 
 nav {}
