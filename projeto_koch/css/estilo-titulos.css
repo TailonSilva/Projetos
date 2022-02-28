@@ -48,7 +48,7 @@
 
 @media (max-width: 500px) {
     .titulo-produtos {
-        padding: 20px 0;
+        padding-bottom: 5px;
         font-size: x-small;
         color: var(--Cor4);
         background-color: var(--Cor5);

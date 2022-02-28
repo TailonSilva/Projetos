@@ -37,6 +37,7 @@
 @media (max-width: 500px) {
     .boxprodutos {
         width: 280px;
+        margin: 10px auto;
     }
 }
 
