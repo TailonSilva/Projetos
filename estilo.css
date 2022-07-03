@@ -96,6 +96,14 @@ a {
 
 .perfil p {}
 
+.perfil div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.perfil div img {}
+
 .contatos {
     padding: 3px 10px;
 }
